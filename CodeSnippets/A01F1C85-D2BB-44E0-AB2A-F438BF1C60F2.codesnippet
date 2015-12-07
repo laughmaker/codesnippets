@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>VMObserve</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string> [self.KVOController observe:self.&lt;#userVM#&gt; keyPath:@"&lt;#vmCommand#&gt;.result" options:NSKeyValueObservingOptionInitial| NSKeyValueObservingOptionNew block:^(id observer, id object, NSDictionary *change) {
+        TWVMCommandResult *newValue = change[NSKeyValueChangeNewKey];
+        if (newValue) {
+        }
+    }];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A01F1C85-D2BB-44E0-AB2A-F438BF1C60F2</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>VM observe</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>VMObserve</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

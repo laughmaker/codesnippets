@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>VMInit</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        self.&lt;#vmCommand#&gt; = [[TWVMCommand alloc] initWithExecutionHandler:^(NSDictionary *input, TWVMCommandCompletionBlock completionHandler) {
+            [XTURLRequest get:&lt;#N_HostSite#&gt; params:input completionHandler:^(id data, NSError *error) {
+                if (completionHandler) {
+                    completionHandler(data, error);
+                }
+            }];
+        }];
+    }
+    return self;
+}
+
+- (void)execute
+{
+    NSDictionary *params = @{@"action": @"get_sign",
+                             @"user_id": [mUserDefaults stringForKey:kUserIDKey]};
+    [self.&lt;#vmCommand#&gt; execute:params];
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>FB48779C-4693-4C62-8AC1-2A2217449BD6</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>VM init snippet</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>VMInit</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
