@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>PString</string>
+	<string>PInteger</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassInterfaceMethods</string>
 		<string>ClassInterfaceVariables</string>
-		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy) NSString *&lt;#name#&gt;;</string>
+	<string>@property (nonatomic, assign) NSInteger &lt;#integer#&gt;;
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>482C1E80-EF4C-4EB5-A11D-36ACDCBD0E4A</string>
+	<string>547B6478-A7E6-42C2-949B-CDD63725410B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>string copy property</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>StringCopy</string>
+	<string>Property Integer</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string> [self.KVOController observe:self.&lt;#userVM#&gt; keyPath:@"&lt;#vmCommand#&gt;.result" options:NSKeyValueObservingOptionInitial| NSKeyValueObservingOptionNew block:^(id observer, id object, NSDictionary *change) {
+	<string> [self.KVOController observe:self.&lt;#userVM#&gt; keyPath:@"&lt;#vmCommand#&gt;.result" options:NSKeyValueObservingOptionNew block:^(id observer, id object, NSDictionary *change) {
         TWVMCommandResult *newValue = change[NSKeyValueChangeNewKey];
         if (newValue) {
         }
