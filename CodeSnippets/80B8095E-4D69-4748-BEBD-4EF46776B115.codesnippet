@@ -3,26 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>PString</string>
+	<string>pm</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
-		<string>ClassInterfaceVariables</string>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy) NSString *&lt;#name#&gt;;</string>
+	<string>#pragma mark - &lt;#name#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>482C1E80-EF4C-4EB5-A11D-36ACDCBD0E4A</string>
+	<string>80B8095E-4D69-4748-BEBD-4EF46776B115</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Copy String property</string>
+	<string>pragma mark</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>String Copy</string>
+	<string>Pragma Mark</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

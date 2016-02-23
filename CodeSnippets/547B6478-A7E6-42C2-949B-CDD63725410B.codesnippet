@@ -6,8 +6,7 @@
 	<string>PInteger</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
-		<string>ClassInterfaceVariables</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>@property (nonatomic, assign) NSInteger &lt;#integer#&gt;;
@@ -15,7 +14,7 @@
 	<key>IDECodeSnippetIdentifier</key>
 	<string>547B6478-A7E6-42C2-949B-CDD63725410B</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Property Integer</string>
 	<key>IDECodeSnippetUserSnippet</key>
